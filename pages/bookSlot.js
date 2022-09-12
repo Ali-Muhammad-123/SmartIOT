@@ -36,7 +36,7 @@ export default function BookSlot({route, navigation}) {
   const [modalVisible, setModalVisible] = useState(false);
   const [negativeModalVisible, setNegativeModalVisible] = useState(false);
 
-  const {slotNo} = route.params;
+  // const {slotNo} = route.params;
   //   useEffect(() => {
   //     getMyStringValue = async () => {
   //       try {
@@ -251,7 +251,7 @@ export default function BookSlot({route, navigation}) {
                 alignItems: 'baseline',
               }}>
               <View style={{flexDirection: 'row', alignItems: 'baseline'}}>
-                <Text>$</Text>
+                <Text>£</Text>
                 <Text
                   style={{
                     fontSize: 28,
